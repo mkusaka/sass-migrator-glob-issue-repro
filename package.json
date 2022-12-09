@@ -1,0 +1,18 @@
+{
+  "name": "sass-migrator-glob-issue-repro",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mkusaka/sass-migrator-glob-issue-repro.git",
+  "author": "mkusaka <hinoshita1992@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "prettier": "^2.8.1"
+  },
+  "devDependencies": {
+    "sass-migrator": "^1.7.2"
+  },
+  "scripts": {
+    "works": "sass-migrator division \"src/styles/style.scss\"",
+    "reproduce": "sass-migrator division \"src/#styles/style.scss\""
+  }
+}
